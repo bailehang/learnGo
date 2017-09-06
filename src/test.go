@@ -8,7 +8,7 @@ import (
 func main(){
 	inputReader := bufio.NewReader(os.Stdin)
 	fmt.Println("Please inout your name:")
-	input,err := inputReader.ReadString('\n')
+	input,err := inputReader.ReadStriging('\n')
 	if err != nil {
 		fmt.Printf("Found an error:%s\n",err)
 	}else{
